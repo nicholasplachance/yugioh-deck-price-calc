@@ -29,3 +29,9 @@ code {
 .flex-item {
   flex: 0 0 50%;
 }
+
+@media screen and (max-width: 600px) {
+  .flex-item {
+    flex: 0 50%;
+  }
+}

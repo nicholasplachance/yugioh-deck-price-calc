@@ -23,3 +23,9 @@ h3 {
 .back-to-top:active {
   border: none;
 }
+
+@media screen and (max-width: 600px) {
+  #navigation {
+    display: none;
+  }
+}

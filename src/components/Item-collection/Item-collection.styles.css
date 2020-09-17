@@ -1,15 +1,16 @@
 ul {
-    padding: 0;
+  padding: 0;
 }
 
 a {
-    font-size: larger;
-    color: rgb(0, 160, 85);
-    text-decoration: none;
+  font-size: larger;
+  color: rgb(0, 160, 85);
+  text-decoration: none;
 }
 
-
-
 .add-icon:hover {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
 }
