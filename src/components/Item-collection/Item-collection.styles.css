@@ -1,0 +1,15 @@
+ul {
+    padding: 0;
+}
+
+a {
+    font-size: larger;
+    color: rgb(0, 160, 85);
+    text-decoration: none;
+}
+
+
+
+.add-icon:hover {
+    cursor: pointer;
+}

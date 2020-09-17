@@ -1,0 +1,38 @@
+.option-menu {
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    width: 175px;
+    height: 42px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.option-menu span {
+    text-align: center;
+}
+
+.option {
+    background: #fff;
+    width: 175px;
+    height: 30px;
+    list-style-type: none;
+}
+
+.option-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .option-menu:hover .option-content {
+    display: block;
+  }
+
+  .option-content li:hover {
+    background-color: #b2b2b2;
+    cursor: pointer;
+}
