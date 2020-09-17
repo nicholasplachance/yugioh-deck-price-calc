@@ -153,9 +153,6 @@ class Homepage extends Component {
               Clear
             </button>
             <div className="flex-row label-container">
-              <h2 className="flex-item">
-                Cards in collections: {this.state.cardCollection.length}
-              </h2>
               <h2 className="flex-item">Total: ${this.state.total}</h2>
             </div>
             <CardCollection

@@ -6,6 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(107, 107, 107);
+  background-image: url("./imgs/background.png");
+  color: #fff;
 }
 
 code {
@@ -19,19 +21,20 @@ code {
 
 .flex-row {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
 }
 
 .flex-column {
   display: flex;
   flex-direction: column;
-}
-
-.flex-item {
-  flex: 0 0 50%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
 }
 
 @media screen and (max-width: 600px) {
-  .flex-item {
-    flex: 0 50%;
-  }
 }

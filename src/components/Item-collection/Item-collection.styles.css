@@ -12,5 +12,9 @@ a {
   cursor: pointer;
 }
 
+.add-icon:active {
+  color: green;
+}
+
 @media screen and (max-width: 600px) {
 }
